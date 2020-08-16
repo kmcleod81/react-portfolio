@@ -1,5 +1,14 @@
 .project-img {
-    width: 300px;
+    width: 280px;
     padding: 4px;
     margin-top: 15px;
+}
+
+p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.name-bigger {
+    font-size: 18px;
 }
