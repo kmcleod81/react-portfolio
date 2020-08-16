@@ -11,7 +11,8 @@ export const Portfolio = ({
     selectedQuote,
     selectedSection,
     about,
-    skills }) => {
+    skills,
+    projects }) => {
     return (
         <div className="portfolio-container">
             <div className="sidenav-container">
@@ -25,7 +26,8 @@ export const Portfolio = ({
                     selectedHeading={selectedHeading}
                     selectedQuote={selectedQuote}
                     about={about}
-                    skills={skills} />
+                    skills={skills}
+                    projects={projects} />
             </div>
         </div>
     );

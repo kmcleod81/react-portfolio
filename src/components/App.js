@@ -3,6 +3,8 @@ import './App.css';
 import { Portfolio } from './Portfolio/Portfolio';
 import { about } from './../data/About';
 import { skills } from './../data/Skills';
+import { projects } from './../data/Projects';
+
 
 
 
@@ -27,6 +29,7 @@ class App extends Component {
       selectedQuote: "",
       about: null,
       skills: null,
+      projects: null,
     };
   }
 
@@ -34,6 +37,7 @@ class App extends Component {
     this.setState({
       about,
       skills,
+      projects,
       selectedHeading: about.heading,
       selectedQuote: about.quote,
       selectedSection: "about"
@@ -58,6 +62,7 @@ class App extends Component {
           selectedQuote={this.state.selectedQuote}
           about={this.state.about}
           skills={this.state.skills}
+          projects={this.state.projects}
         />
       </div>
     );
