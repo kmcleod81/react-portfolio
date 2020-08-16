@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Portfolio } from './Portfolio/Portfolio';
 
-//function based component (stateless preferred)
+// function based component (stateless preferred)
 
 // function App() {
 //   return (
@@ -14,14 +15,11 @@ import './App.css';
 // class based components can use states easier, assign once in component
 
 class App extends Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (
       <div className="App">
-        <h1>Hello React</h1>
+        <Portfolio />
       </div>
     );
   }
