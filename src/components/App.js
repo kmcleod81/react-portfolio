@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Portfolio } from './Portfolio/Portfolio';
+import { Footer } from './Footer/Footer';
+
 import { about } from './../data/About';
 import { skills } from './../data/Skills';
 import { projects } from './../data/Projects';
@@ -64,6 +66,7 @@ class App extends Component {
           skills={this.state.skills}
           projects={this.state.projects}
         />
+        <Footer />
       </div>
     );
   }
