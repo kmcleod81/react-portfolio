@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Portfolio } from './Portfolio/Portfolio';
 import { about } from './../data/About';
+import { skills } from './../data/Skills';
+
 
 
 // function based component (stateless preferred)
@@ -15,7 +17,6 @@ import { about } from './../data/About';
 // }
 
 // class based components can use states easier, assign once in component
-
 class App extends Component {
   constructor() {
     super();
@@ -25,12 +26,14 @@ class App extends Component {
       selectedHeading: "",
       selectedQuote: "",
       about: null,
+      skills: null,
     };
   }
 
   componentWillMount() {
     this.setState({
       about,
+      skills,
       selectedHeading: about.heading,
       selectedQuote: about.quote,
       selectedSection: "about"
@@ -54,6 +57,7 @@ class App extends Component {
           selectedHeading={this.state.selectedHeading}
           selectedQuote={this.state.selectedQuote}
           about={this.state.about}
+          skills={this.state.skills}
         />
       </div>
     );
