@@ -6,8 +6,8 @@ export const projects = {
             name: "Employee Directory",
             description: "This Employee Directory app built with React enables a user sort the table by name in alphabetical order, as well as filter the users by case sensative name.",
             link: "https://employee-directory-km.herokuapp.com/",
-            ghlink: "https://github.com/kmcleod81/employee-directory/blob/master/Employee-Directory.gif",
-            projectimg: "https://github.com/kmcleod81/employee-directory/raw/master/Employee-Directory.gif"
+            ghlink: "https://github.com/kmcleod81/employee-directory",
+            image: "/assets/images/Employee-Directory.gif"
         }, {
             name: "Online/Offline Budget Tracker",
             description: "This budegt app enables a user to add and subtract their expenses online or offline, incase they need to use the app where there's no service.",
