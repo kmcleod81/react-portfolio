@@ -11,11 +11,11 @@ export const skills = {
         "jQuery",
         "Bootstrap",
         "Material Design",
-        "MaterializeCSS",
+        "Materialize CSS",
         "Git",
         "GitHub",
         "MongoDB",
-        "MaySQL"
+        "MySQL"
     ],
     industryKnowledge: [
         "Marketing",
