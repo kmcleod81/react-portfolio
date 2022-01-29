@@ -6,7 +6,7 @@ import { Footer } from './Footer/Footer';
 import { about } from './../data/About';
 import { skills } from './../data/Skills';
 import { projects } from './../data/Projects';
-
+// import { contact } from '../components/Contact/Contact';
 
 
 
@@ -32,6 +32,7 @@ class App extends Component {
       about: null,
       skills: null,
       projects: null,
+      // contact: null,
     };
   }
 
@@ -40,6 +41,7 @@ class App extends Component {
       about,
       skills,
       projects,
+      // contact,
       selectedHeading: about.heading,
       selectedQuote: about.quote,
       selectedSection: "about"
@@ -65,6 +67,7 @@ class App extends Component {
           about={this.state.about}
           skills={this.state.skills}
           projects={this.state.projects}
+        // contact={this.state.contact}
         />
         <Footer />
       </div>
